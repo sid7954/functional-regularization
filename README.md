@@ -2,6 +2,8 @@
 
 This is the official repository accompanying the NeurIPS 2020 Paper [Functional Regularization for Representation Learning: A Unified Theoretical Perspective](https://arxiv.org/abs/2008.02447). 
 
+![Representation Learning via Functional Regularization](/images/func_reg.png)
+
 ## Auto-Encoder
 
 This directory contains:
