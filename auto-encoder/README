@@ -1,0 +1,27 @@
+The following are the aguments for running the experiments on the auto-encoder example of functional regularization:
+
+repr_epochs : Number of Training Epochs for the Auxiliary Task
+
+pred_epochs : Number of Training Epochs for the Prediction Task
+
+repr_size : Number of unlabeled data points for the Auxiliary Task
+
+pred_size : Number of labeled data points for the Prediction Task
+
+num_trials : Number of independent runs to average scores over
+
+reg_w1 : Weight on the orthonormal regularization on W for h
+
+reg_w2 : Weight on the orthonormal regularization on V for g
+
+repr_lr : Learning rate for the Auxiliary Task
+
+pred_lr : Learning rate for the Prediction Task
+
+repr_static : Make the representation h learned from the Auxiliary task static for the Prediction Task
+
+r : Dimension r
+
+d : Dimension of the data d
+
+For running the code, see example in run.sh
